@@ -1,0 +1,38 @@
+package constant
+
+const (
+	GORM_SQL      = "gorm_sql"
+	DB_CONF_MSSQL = "conf/db.conf"
+
+	DB_TYPE_MSSQL    = "MSSQL"
+	DB_TYPE_MYSQL    = "MYSQL"
+	DB_TYPE_POSTGRES = "POSTGRESQL"
+	DB_TYPE_MONGODB  = "MONGODB"
+
+	MONGO_NO_DOC = "mongo: no documents in result"
+)
+
+const (
+	DATA_LAYER_SQL   = "SQL"
+	DATA_LAYER_NOSQL = "NOSQL"
+	DATA_LAYER_API   = "API"
+)
+const (
+	LOG_TYPE_INFO  = "INFO"
+	LOG_TYPE_ERROR = "ERROR"
+
+	LOG_TAG_BEGIN  = "BEGIN"
+	LOG_TAG_PARAMS = "PARAMS"
+
+	LOG_TAG_SQL = "SQL"
+
+	LOG_TAG_SQL_INSERT = "INSERT"
+	LOG_TAG_SQL_UPDATE = "UPDATE"
+	LOG_TAG_SQL_DELETE = "DELETE"
+
+	LOG_TAG_SQLVARS = "SQLVARS"
+	LOG_TAG_DATA    = "DATA"
+	LOG_TAG_RETURN  = "RETURN"
+	LOG_TAG_END     = "END"
+	LOG_TAG_COUNT   = "COUNT"
+)
